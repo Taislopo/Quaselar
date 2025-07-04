@@ -1,0 +1,96 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+@font-face {
+    font-family: 'work';
+    src: url(../fonts/work-sans//WorkSans-Bold.ttf);
+}
+@font-face {
+    font-family: 'ones';
+    src: url(../fonts/onest/Onest-Medium.ttf);
+}
+@font-face {
+    font-family: 'ones-bold';
+    src: url(../fonts/onest/Onest-ExtraBold.ttf);
+}
+
+*{
+    margin: 0;
+}
+
+
+.menu-principal{
+    margin:15px;
+}
+
+.cabecalho nav{
+    display: flex;
+    background-color: white;
+    padding: 5px;
+    height: 100px;
+    align-items: end;
+    justify-content: space-between ;
+    align-items: center;
+    
+}
+
+.box-logo{
+    display: flex;
+    height:50px ;
+    width: 80px;
+    font-family: 'work';  
+    
+    
+}
+.navegacao>ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    font-family: 'work';  
+}
+.navegacao li{
+    
+}
+.navegacao>ul a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin: 20px;
+    margin-right: 50px;
+}
+.navegacao>ul a:hover{
+    color: #a8cceb;  
+}
+
+.botao{
+    border: solid 1px #0E6ABE;
+    padding:15px ;
+    background-color: #0E6ABE;
+    border-radius: 50px;
+}
+
+
+
+.navegacao>ul i{
+    font-size: 40px;
+    margin: 30px;
+
+    
+}
+
+.banner{
+    min-height: 100vh;
+    width: 100vw;
+    background-image: url(../img/fundo-animado.gif);
+    size-adjust: 50%;
+    background-repeat: no-repeat;
+}
+
+.banner{
+    color: rgb(241, 241, 241);
+    font-family: 'ones-bold';
+    
+
+}
+
+
+
+
