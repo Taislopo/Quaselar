@@ -75,10 +75,12 @@
 
     
 }
-
+.fundo{
+    background-color: #0E6ABE;
+}
 .banner{
-    min-height: 100vh;
-    width: 100vw;
+    height: 100vh;
+    width:100vw;
     background-image: url(../img/fundo-animado.gif);
     size-adjust: 50%;
     background-repeat: no-repeat;
@@ -87,10 +89,82 @@
 .banner{
     color: rgb(241, 241, 241);
     font-family: 'ones-bold';
-    
+}
+.banner h1{
+    padding: 100px 0 0 50px;
+}
+.banner p{
+    padding: 20px 0 0 80px;
+}
+
+@media screen and (min-width:562px) and (max-width: 768px) {
 
 }
 
+/*==================================================================================================================================================*/
+/*box adoção*/
+.box-pets{
+    height: 1000px;
+}
+.text-1{
+    width: 400px;
+    height: 90px;
+    background-color: rgba(14, 106, 190, 1);
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+.t1{
+    padding:10px 50px 20px 50px;
+}
+.t1>h1{
+    font-size: 30px;
+    color: white;
+    font-family: 'Worksans';
+
+}
+.t1>p{
+    font-size: 14px;
+    color: white;
+    font-family: 'Worksans';
+}
 
 
+.box-pets{
+    display: flex;
+    justify-content: center;
 
+}
+.grid-pet{
+    display: grid;
+    grid-template-columns: repeat(3, 450px);
+    grid-template-rows: repeat(4, 200px);
+    row-gap: 200px;
+    justify-items: center;
+}
+.card{
+    height: 345px;
+    width: 360px;
+    border-radius: 25px;
+    background-color: tomato;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.card>h4{
+    height: 40px;
+    width: 240px;
+    padding: 10px;
+    background-color: rgba(145, 190, 231, 1);
+    border-radius: 20px;
+    position: relative;
+    bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Worksans';
+    font-size: 18px;
+    color: black;
+}
