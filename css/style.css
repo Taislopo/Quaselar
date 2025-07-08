@@ -168,3 +168,10 @@
     font-size: 18px;
     color: black;
 }
+
+.box-card{
+    height:100px ;
+    width:200px ;
+    background-color: black;
+    
+}
