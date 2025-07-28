@@ -1,0 +1,103 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+@font-face {
+    font-family: 'work';
+    src: url(../fonts/work-sans/WorkSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'ones';
+    src: url(../fonts/onest/Onest-Medium.ttf);
+}
+
+
+*{
+    margin: 0;
+}
+.fundo{
+    height:100vh ;
+    background-color: #ffff;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 40px;
+    position: relative;
+}
+
+.img img{
+    float: left;
+    object-fit: cover;     
+}
+
+.texto{ 
+    position: absolute;
+    margin-left: 500px;
+    z-index: 3;
+}
+.texto h1{
+    padding: 100px 0 0 50px;
+    font-family: 'work';
+    color: #0E6ABE;
+    
+}
+.texto h2{
+    font-family: 'work';
+}
+.texto p {
+    font-family: 'ones';
+}
+
+
+/* css do header com os menus */
+.box-header{
+    /* é nescessario usar o position em todos que vão ser empilhados para que o zindex funcione */  
+    position: absolute;
+    height: 50px  ;
+    width: 200px ;
+    background-color: #0E6ABE;
+    float: right;
+    border-radius: 10px;
+    /* usando o zindex para fazer eles ficar em cima do outro por estar usando o grid */
+    z-index: 1;
+    margin: 10px 0 0 1300px;
+}
+
+.box-header i{
+    color: #ffff;
+    font-size: 30px;
+    margin: 15px;
+}
+.box-header i:hover{
+    color: #a7b0cf;
+}
+
+/* css do quadrado com as redes */
+.box-redes{
+    position: absolute;
+    height: 50px;
+    width: 200px;
+    float: right;
+    border-radius: 20px 0 0 20px;
+    background-color: #0E6ABE;
+    margin: 650px 0 0 1380px;
+    z-index: 2;
+}
+.box-redes i{
+    color: #ffff;
+    font-size: 30px;
+    margin: 0 0 0 30px ;
+}
+.box-redes i:hover{
+    color: #a7b0cf;
+}
+
+@media screen and (min-width: 769px)  {
+   
+    
+}
+
+@media screen and (min-width: 590px) and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width: 589px) {
+    
+}

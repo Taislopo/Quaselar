@@ -1,0 +1,219 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+
+@font-face {
+    font-family: 'work';
+    src: url(../fonts/work-sans/WorkSans-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'work-bold';
+    src: url(../fonts/work-sans/WorkSans-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'ones';
+    src: url(../fonts/onest/Onest-Medium.ttf);
+}
+
+.fundo {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: #ffffff;
+
+}
+
+
+.box-header {
+    height: 50px;
+    width: 180px;
+    background-color: #0E6ABE;
+    border-radius: 10px;
+    position: relative;
+    bottom: 570px;
+    left: 200px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.box-header i {
+    color: #ffff;
+    font-size: 30px;
+    margin: 10px;
+}
+
+.box-header i:hover {
+    color: #a7b0cf;
+}
+
+.grid-procurados {
+    display: grid;
+    grid-template-columns: repeat(2, 500px);
+    /* Duas colunas de igual largura */
+    grid-template-rows: repeat(1, 200px);
+    /* Altura automática para as linhas */
+    gap: 10px
+}
+
+
+.card1 {
+    position: relative;
+    left: 200px;
+    top: 120px;
+    height: 400px;
+    width: 360px;
+    border: 1px solid black;
+    border-radius: 25px;
+    grid-column: 1 / 1;
+    background-image: url(../img/Rectangle.png);
+    background-size: 540px;
+    background-position: center;
+}
+
+.card2 {
+    position: relative;
+    top: 70px;
+    right: 100px;
+    height: 550px;
+    width: 500px;
+    border-radius: 20px;
+    grid-column: 2 / 2;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #000000;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.card2>h4 {
+    position: relative;
+    top: 10px;
+    left: 90px;
+    height: 40px;
+    width: 300px;
+    padding: 10px;
+    background-color: #0E6ABE;
+    border-radius: 20px;
+    font-family: 'work';
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.cancelar {
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
+    background-color: #0E6ABE;
+    color: #ffff;
+    position: relative;
+    top: 50px;
+    left: 70px;
+    text-decoration: none;
+    text-align: center;
+    font-style: 'work';
+}
+
+.cancelar:hover {
+    transition: 1s;
+    transform: scale(1.1)
+}
+
+.enviar {
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
+    background-color: #0E6ABE;
+    color: #ffff;
+    position: relative;
+    top: 50px;
+    left: 200px;
+    text-decoration: none;
+    text-align: center;
+    font-style: 'work';
+}
+
+.enviar:hover {
+
+    transition: 1s;
+    transform: scale(1.1)
+}
+
+.botao {
+    padding: 10px 0 10px 50px;
+    border-radius: 10px;
+    background-color: #0E6ABE;
+    color: #ffff;
+    position: relative;
+    top: 530px;
+    right: 280px;
+    width: 300px;
+    height: 50px;
+    text-decoration: none;
+    font-style: 'work';
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+
+}
+
+.botao:hover {
+
+    transition: 1s;
+    transform: scale(1.1)
+}
+
+.grupo1 textarea {
+    height: 40px;
+    width: 90px;
+    border-radius: 10px;
+    position: relative;
+    top: 15px;
+    margin: 3px;
+}
+
+.grupo1 label {
+    margin: 5px 5px 5px 10px;
+}
+
+.grupo2 textarea {
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+    margin: 0 0 0 10px;
+    position: relative;
+    top: 10px;
+}
+
+.grupo2 label {
+    margin: 5px 5px 5px 10px;
+}
+
+.grupo3 textarea {
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    margin: 0 0 0 3px;
+    position: relative;
+    top: 10px;
+}
+
+.grupo3 label {
+    margin: 5px 5px 5px 5px;
+}
+
+.grupo4 textarea {
+    height: 80px;
+    width: 450px;
+    border-radius: 10px;
+    display: flex;
+    margin: 0 0 0 20px;
+}
+
+.grupo4 label {
+    margin: 10px 0 0 20px;
+}
+
+strong {
+    color: #0E6ABE;
+}
+
+textarea {
+    background-color: #EEF0F1;
+    border: 1px #EEF0F1;
+    ;
+    padding: 10px 0 0 10px;
+}
