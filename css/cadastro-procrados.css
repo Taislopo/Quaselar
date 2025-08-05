@@ -25,6 +25,7 @@
 
 
 .box-header {
+    margin: 30px 20px 20px 20px ;
     height: 50px;
     width: 180px;
     background-color: #0E6ABE;
@@ -64,14 +65,14 @@
     border: 1px solid black;
     border-radius: 25px;
     grid-column: 1 / 1;
-    background-image: url(../img/Rectangle.png);
+    background-image: url(../img/sem_foto.png);
     background-size: 540px;
     background-position: center;
 }
 
 .card2 {
     position: relative;
-    top: 70px;
+    top: 90px;
     right: 100px;
     height: 550px;
     width: 500px;
@@ -111,8 +112,9 @@
 }
 
 .cancelar:hover {
+    background-color: #EEF0F1;
     transition: 1s;
-    transform: scale(1.1)
+    color: #0E6ABE;
 }
 
 .enviar {
@@ -129,9 +131,9 @@
 }
 
 .enviar:hover {
-
+    background-color: #EEF0F1;
     transition: 1s;
-    transform: scale(1.1)
+    color: #0E6ABE;
 }
 
 .botao {

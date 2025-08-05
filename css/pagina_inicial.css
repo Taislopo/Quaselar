@@ -7,12 +7,12 @@
     src: url(../font/OpenSans-VariableFont_wdth\,wght.ttf);
 }
 @font-face {
-    font-family: 'work';
-    src: url(../fonts/work-sans/WorkSans-Bold.ttf);
+    font-family: 'ones-semi';
+    src: url(../fonts/onest/Onest-SemiBold.ttf);
 }
 @font-face {
-    font-family: 'ones-bold';
-    src: url(../fonts/onest/Onest-Bold.ttf);
+    font-family: 'ones';
+    src: url(../fonts/onest/Onest-Medium.ttf);
 }
 *{
     margin: 0;
@@ -34,11 +34,13 @@ body{
 
 /*CABEÇALHO =====================================================================*/
 .logo{ /*logo*/
-    font-family: 'work';
+    font-family: 'ones-semi';
     font-size: 30px;
     display: flex;
-    justify-content: center;
     align-items: end;
+    position: relative;
+    right: 150px;
+    
 }
 .logo img{
     height: 40px;
@@ -72,11 +74,10 @@ body{
     display: flex;
     letter-spacing: 3px;
     margin-left: 3vh;
-    font-weight: 500;
-    font-family: 'work';
+    font-family: 'ones-semi';
 }
 .bnt_entrar{    /*botão "Entrar"*/
-    font-weight: 600;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -84,7 +85,7 @@ body{
     padding: 10px 26px;
     border-radius: 50px;
     font-size: 14px;
-    font-family: 'work';
+    font-family: 'ones-semi';
 }
 .bnt_entrar-2{
   
@@ -106,7 +107,7 @@ body{
     padding: 10px 26px;
     border-radius: 50px;
     font-size: 14px;
-    font-family: 'work';
+    font-family: 'ones-semi';
 }
 .bnt_cadastrar-2{
     display: flex;
@@ -158,15 +159,36 @@ body{
 }
 /*====================================================================*/
 /*Pagina principal "para o cards"*/
-.apresentacao{
-    height: 90vh;
-    width: 100%;
-    overflow: hidden;
+.fundo{
+    background-color: #0E6ABE;
 }
-.apresentacao img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.banner{
+    height: 100vh;
+    width:100vw;
+    background-image: url(../img/fundo-animado.gif);
+    background-repeat: no-repeat;
+     background-size: 1400px 
+}
+
+.banner{
+    color: rgb(241, 241, 241);
+
+}
+.banner h1{
+    font-size: 30px;
+    position: relative;
+    top: 50px;
+    left: 100px;
+    top: 200px;
+    font-family: 'ones';
+  
+}
+.banner p{
+    font-size: 18px;
+    position: relative;
+    left:80px ;
+    top: 220px;
+    font-family: 'ones-semi';
 }
 .inicio{
     width: 100%;
@@ -191,7 +213,7 @@ body{
 .titulo h1 ,p{
     color: white;
     margin-left: 24px;
-    font-family: 'work';
+    font-family: 'ones-semi';
     
 }
 /*====================================================================*/
@@ -247,25 +269,24 @@ body{
     margin-top: 10px;
     display: flex;
     font-size: 14px;
-    font-weight: 600;
+   
     gap: 4px;
     color: white;
 }
 .info p{
     font-size: 14px;
-    font-weight: 600;
+    
     margin-top: 3px;
     color: white;
 }
 .info h1{
     color: rgba(9, 34, 76, 0.805);
-    font-weight: 600;
+  
 }
 .info button{
     background: rgba(14, 106, 190, 0.8);
     border: none;
     padding: 8px 12px;
-    font-weight: 8px;
     margin-top: 8px;
     color: white;
 }
@@ -287,28 +308,3 @@ body{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width: 768px) {
-    .nav_itens{
-    }
-}
