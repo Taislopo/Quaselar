@@ -1,0 +1,182 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+@font-face {
+    font-family: 'work';
+    src: url(../fonts/work-sans//WorkSans-Bold.ttf);
+}
+@font-face {
+    font-family: 'ones';
+    src: url(../fonts/onest/Onest-Medium.ttf);
+}
+@font-face {
+    font-family: 'ones-bold';
+    src: url(../fonts/onest/Onest-ExtraBold.ttf);
+}
+
+*{
+    margin: 0;
+}
+
+
+.menu-principal{
+    margin:15px;
+}
+
+.cabecalho nav{
+    display: flex;
+    background-color: white;
+    padding: 5px;
+    height: 80px;
+    align-items: end;
+    justify-content: space-between ;
+    align-items: center;
+    
+}
+
+.box-logo{
+    
+    display: flex;
+    height:40px ;
+    width: 80px;
+    font-family: 'work';     
+}
+
+.box-logo h1{
+    font-size: 30px;
+}
+
+.navegacao>ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    font-family: 'work';  
+}
+
+.navegacao>ul a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    margin: 15px;
+    margin-right: 50px;
+}
+.navegacao>ul a:hover{
+    color: #a8cceb;  
+}
+
+.botao{
+    border: solid 1px #0E6ABE;
+    padding:10px ;
+    background-color: #0E6ABE;
+    border-radius: 50px;
+    margin-right: 100px;
+}
+
+
+
+.navegacao>ul i{
+    font-size: 30px;
+    margin: 0px;
+
+    
+}
+.fundo{
+    background-color: #0E6ABE;
+}
+.banner{
+    height: 100vh;
+    width:100vw;
+    background-image: url(../img/fundo-animado.gif);
+    background-repeat: no-repeat;
+     background-size: 1200px 
+}
+
+.banner{
+    color: rgb(241, 241, 241);
+    font-family: 'ones-bold';
+}
+.banner h1{
+    font-size: 30px;
+    padding: 80px 0 0 900px;
+}
+.banner p{
+    font-size: 18px;
+    padding: 20px 0 0 900px;
+}
+
+@media screen and (min-width:562px) and (max-width: 768px) {
+
+}
+
+/*==================================================================================================================================================*/
+/*box adoção*/
+.box-pets{
+    height: 1000px;
+}
+.text-1{
+    width: 400px;
+    height: 90px;
+    background-color: rgba(14, 106, 190, 1);
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+.t1{
+    padding:10px 50px 20px 50px;
+}
+.t1>h1{
+    font-size: 30px;
+    color: white;
+    font-family: 'Worksans';
+
+}
+.t1>p{
+    font-size: 14px;
+    color: white;
+    font-family: 'Worksans';
+}
+
+
+.box-pets{
+    display: flex;
+    justify-content: center;
+
+}
+.grid-pet{
+    display: grid;
+    grid-template-columns: repeat(3, 450px);
+    grid-template-rows: repeat(4, 200px);
+    row-gap: 200px;
+    justify-items: center;
+}
+.card{
+    height: 345px;
+    width: 360px;
+    border-radius: 25px;
+    background-color: tomato;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.card>h4{
+    height: 40px;
+    width: 240px;
+    padding: 10px;
+    background-color: rgba(145, 190, 231, 1);
+    border-radius: 20px;
+    position: relative;
+    bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Worksans';
+    font-size: 18px;
+    color: black;
+}
+
+.box-card{
+    height:100px ;
+    width:200px ;
+    background-color: black;
+    
+}
