@@ -1,0 +1,197 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+
+@font-face {
+    font-family: 'work';
+    src: url(../fonts/work-sans/WorkSans-Medium.ttf);
+}
+@font-face {
+    font-family: 'work-bold';
+    src: url(../fonts/work-sans/WorkSans-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'ones';
+    src: url(../fonts/onest/Onest-Medium.ttf);
+}
+
+.fundo {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: #ffffff;
+}
+
+
+.caixa-aviso {
+    width: 280px;
+    height: 55px;
+    background-color: rgba(14, 106, 190, 1);
+    border-radius: 25px;
+    position: relative;
+    top: 100px;
+    left: 130px;
+     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  
+}
+
+.texto h1 {
+    margin: 10px 0 0 20px;
+    font-family: 'work';
+    font-size: 28px;
+    color: #ffff;
+    
+    
+}
+
+/* hearder com os menus */
+.box-header {
+    height: 50px;
+    width: 170px;
+    background-color: #0E6ABE;
+    border-radius: 10px;
+    position: relative;
+    left: 650px;
+    top: 10px;
+}
+
+.box-header i {
+    color: #ffff;
+    font-size: 30px;
+    margin: 5px;
+}
+
+.box-header i:hover {
+    color: #a7b0cf;
+}
+
+
+.grid-procurados {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* Duas colunas de igual largura */
+    grid-template-rows: repeat(1, 200px);
+    /* Altura automática para as linhas */
+    gap: 10px
+}
+
+
+.card1 {
+    position: relative;
+    left: 80px;
+    top: 100px;
+    height: 400px;
+    width: 350px;
+    border-radius: 25px;
+    grid-column: 1 / 1; 
+    background-image: url(../img/sem_foto.png); 
+    background-size: 540px; 
+    background-position: center;
+}
+
+.text2{
+    height: 100px; 
+    width: 100%;    
+    position: absolute;
+    bottom: 0px;
+    color: white;
+    background-color: #000000;
+    border-radius: 0px 0px 24px 24px;
+    align-items: center;
+}
+
+.text2 p{
+    position: relative;
+    left: 130px;
+    bottom: 40px;
+    color: #ffff;
+}
+.text2 strong{
+    color: #91BEE7;
+}
+.text2 h1{
+    position: relative;
+    left: 40px;
+    font-size: 30px;
+    top: 10px;
+}
+
+.text2 h6{
+    position: relative;
+    bottom: 50px;
+    left: 70px;
+    color: #B9D0E5;
+}
+
+
+.card2 {
+    position: relative;
+    top: 40px;
+    right: 250px;
+    height: 250px;
+    width: 650px;
+    border-radius: 20px;
+    grid-column: 2 / 2; 
+    background-color: rgb(255, 255, 255);
+    border:2px solid #000000;
+     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.card2>h4{
+    position: relative;
+    left: 80px;
+    bottom: 20px;
+    height: 50px;
+    width: 500px;
+    padding: 10px;
+    background-color:#0E6ABE;
+    border-radius: 20px;
+    font-family: 'ones';
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    text-align: center;  
+}
+
+.text3 p{
+    text-align: center;
+    background-color: #EEF0F1;
+    border-radius: 20px;
+    color: #000000;
+    padding: 0 0 0 20px;
+    position: relative;
+    bottom: 20px;
+    margin-top: 12px;
+}
+.text3 strong{
+    color: #0E6ABE;
+    margin: 50px;
+   
+}
+
+.card3 {
+    position: relative;
+    right: 200px;
+    height: 200px;
+    width: 550px;
+    top: 60px;
+    border-radius: 20px;
+     grid-column: 2 / 2; 
+     background-color: rgb(255, 255, 255);
+     border: 2px solid #000000;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    }
+    
+    .card3>h4{
+        position: relative;
+        bottom: 20px;
+        left: 70px;
+        height: 50px;
+        width: 400px;
+        padding: 10px;
+        background-color: #0E6ABE;
+        border-radius: 20px;
+        font-family: 'ones';
+        font-size: 18px;
+        color: rgb(255, 255, 255);
+        text-align: center;  
+    }
+
