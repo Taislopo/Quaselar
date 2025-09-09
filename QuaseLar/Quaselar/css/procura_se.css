@@ -44,10 +44,10 @@
 /* css da caixa de menus */
 .box-header{
     height: 50px;
-    width: 200px;
+    width: 20rem;
     background-color: #0E6ABE;
     border-radius: 10px;
-    margin: 20px 0 0 700px ;
+    margin: 20px 0 0 0px ;
 }
 
 .box-header i{
@@ -79,38 +79,12 @@
     display: flex;
     justify-content: center;
     
-}
-.card1{
     background-position: center;
-    background-image: url(../img/gato\ leo.png);
+    background-image: url(../img/sem_foto.png);
     background-size: 360px;  
 }
-.card2{
-    background-position: center;
-    background-image: url(../img/cao\ mark.png);
-    background-size: 370px; 
-}
-.card3{
-    background-position: center;
-    background-image: url(../img/cao\ thor.png);
-    background-size: 370px;  
-}
-.card4{
-    background-position: center;
-    background-image: url(../img/gata\ lulu.png);
-    background-size: 375px;  
-}
-.card5{
-    background-position: center;
-    background-image: url(../img/cao\ joao.png);
-    background-size: 380px;  
-}
-.card6{
-    background-position: center;
-    background-image: url(../img/gata\ lia.png);
-    background-size: 370px;  
-   
-}
+
+
 
 
 .card>h4{
@@ -125,7 +99,6 @@
     color: black;
     text-align: center;  
 }
-
 
 .text2{
     height: 100px;  /*[1]*/

@@ -14,11 +14,11 @@
     margin: 0;
 }
 .fundo{
-    height:100vh ;
+    
     background-color: #ffff;
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    gap: 40px;
+    gap: 40rem;
     position: relative;
 }
 
@@ -57,7 +57,7 @@
     top: 40px;
     left: 700px;
     height: 50px  ;
-    width: 200px ;
+    width: 9rem ;
     background-color: #0E6ABE;
     float: right;
     border-radius: 10px;
@@ -68,7 +68,7 @@
 
 .box-header i{
     color: #ffff;
-    font-size: 30px;
+    font-size: 2rem;
     margin: 15px;
 }
 .box-header i:hover{
@@ -78,20 +78,20 @@
 /* css do quadrado com as redes */
 .box-redes{
     position: relative;
-    top: 600px;
-    left: 780px;
-    height: 50px;
-    width: 200px;
+    top: 40rem;
+    left: 58rem;
+    height: 3.2rem;
+    width: 12rem;
     float: right;
-    border-radius: 20px 0 0 20px;
+    border-radius: 1rem 0 0 1rem;
     background-color: #0E6ABE;
    
     z-index: 2;
 }
 .box-redes i{
     color: #ffff;
-    font-size: 30px;
-    margin: 0 0 0 30px ;
+    font-size: 2rem;
+    margin: 0 0 0 2rem ;
 }
 .box-redes i:hover{
     color: #a7b0cf;

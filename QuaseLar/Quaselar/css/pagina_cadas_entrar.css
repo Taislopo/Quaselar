@@ -1,0 +1,101 @@
+@font-face{
+    font-family: 'work_sans';
+    src: url(../font/WorkSans-VariableFont_wght.ttf);
+}
+@font-face{
+    font-family: 'open_sans';
+    src: url(../font/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.form-1, .form-2{
+    height: 80vh;
+    width: 70vh;
+    /*border: 1px solid;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/*formulario de cadastro*/
+.form-1{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-right: none;
+    overflow: hidden;
+    box-shadow: 5px 5px 5px  rgba(0, 0, 0, 0.233);
+    
+}
+.form-1 h1, .form-2 h1{
+    font-family: 'open_sans';
+    margin-bottom: 2vh;
+
+}
+.cadastro{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+}
+.cadastro input, .entrar input{
+    height: 30px;
+    margin-bottom: 1vh;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 0.5px solid;
+}
+.cadastro label, .entrar label{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'open_sans';
+
+}
+.cadastro-bnt{
+    height: 40px;
+    width: 100px;
+    margin-top: 2vh;
+}
+/*formulario de login(entrar)*/
+.form-2{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-left: none;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.233);
+    overflow: hidden;
+}
+.entrar{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.entrar-bnt{
+    height: 40px;
+    width: 100px;
+    margin-top: 2vh;
+}
+/*tela extra para ocultar*/
+.tela_extra{
+    height: 80vh;
+    width: 70vh;
+    background-color: rgba(86, 171, 249, 1);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    transition: 0.5s;
+    transform: translate(-50%);
+    cursor: pointer;
+}
+

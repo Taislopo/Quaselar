@@ -1,14 +1,6 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>informação dos procurados</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/tela-info-procuados.css">
-</head>
+<?php
+include './template/header.php';
+?>
 
 <body>
     <section class="fundo">
@@ -17,12 +9,6 @@
                 <figcaption class="texto">
                     <h1>PROCURA - SE </h1>
                 </figcaption>
-            </figure>
-            <!-- header com os menus -->
-            <figure class="box-header">
-                <a href="../index.html"><i class="bi bi-house-door"></i></a>
-                <a href="#"><i class="bi bi-person"></i></a>
-                <a href="#"><i class="bi bi-list"></i></a>
             </figure>
         </main>
 
