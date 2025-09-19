@@ -10,14 +10,14 @@
 }
 
 
-.fundo {
+.fundo3 {
     margin: 0;
     height: 100vh;
     width: 100vw;
     background-color: #ffffff;
 }
 
-.caixa-aviso {
+.caixa-aviso2 {
     width: 400px;
     height: 110px;
     background-color: rgba(14, 106, 190, 1);
@@ -26,23 +26,23 @@
     align-items: center;
     margin: 10px 0 0 100px ;
 }
-.texto{
+.texto3{
    padding: 10px 
 }
-.texto h1{
+.texto3 h1{
     margin: 10px 0 0 0;
     font-family: 'work';
     font-size: 30px;
     color: #ffff;
 }
-.texto p{
+.texto3 p{
     color: #ffff;
     font-family: 'ones';
     font-size: 15px;
 }
 
 /* css da caixa de menus */
-.box-header{
+.box-header3{
     height: 50px;
     width: 20rem;
     background-color: #0E6ABE;
@@ -50,17 +50,17 @@
     margin: 20px 0 0 0px ;
 }
 
-.box-header i{
+.box-header3 i{
     color: #ffff;
     font-size: 30px;
     margin: 10px;
 }
-.box-header i:hover{
+.box-header3 i:hover{
     color: #a7b0cf;
 }
 
 /* grid dos cards */
-.grid-procurados{
+.grid-procurados3{
     display: grid;
     grid-template-columns: repeat(3, 450px);
     grid-template-rows: repeat(2, 200px);
@@ -71,7 +71,7 @@
 }
 
 /* cada card da pagina coloquei backgroud image para colocar as imagens */
-.card{
+.card33{
     height: 345px;
     width: 360px;
     border-radius: 25px;
@@ -87,7 +87,7 @@
 
 
 
-.card>h4{
+.card33>h4{
     margin: 0 0 305px 55px;
     height: 50px;
     width: 230px;
@@ -100,7 +100,7 @@
     text-align: center;  
 }
 
-.text2{
+.text222{
     height: 100px;  /*[1]*/
     width: 100%;    
     position: absolute;
@@ -110,22 +110,22 @@
     border-radius: 0px 0px 24px 24px;
     align-items: center;
 }
-.text2 p{
+.text222 p{
     position: relative;
     left: 130px;
     bottom: 40px;
 }
-.text2 strong{
+.text222 strong{
     color: #91BEE7;
 }
-.text2 h1{
+.text222 h1{
     position: relative;
     left: 40px;
     font-size: 30px;
     top: 10px;
 }
 
-.text2 h6{
+.text222 h6{
     position: relative;
     bottom: 50px;
     left: 70px;

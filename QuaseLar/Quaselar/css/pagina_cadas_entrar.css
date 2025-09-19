@@ -42,12 +42,12 @@ body{
     margin-bottom: 2vh;
 
 }
-.cadastro{
+.cadastroo{
     display: flex;
     flex-direction: column;
     width: 85%;
 }
-.cadastro input, .entrar input{
+.cadastroo input, .entrar input{
     height: 30px;
     margin-bottom: 1vh;
     border-top: none;
@@ -55,7 +55,7 @@ body{
     border-right: none;
     border-bottom: 0.5px solid;
 }
-.cadastro label, .entrar label{
+.cadastroo label, .entrar label{
     font-size: 16px;
     font-weight: 500;
     font-family: 'open_sans';
@@ -74,7 +74,7 @@ body{
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.233);
     overflow: hidden;
 }
-.entrar{
+.eentrar{
     display: flex;
     flex-direction: column;
     width: 50%;

@@ -3,12 +3,12 @@ include './template/header.php';
 ?>
 
 <body>
-    <section class="fundo">
+    <section class="fundo4">
         <main class="row">
 
             <div class="col-lg-6 col-md-6 col-sm-12 col">
                 <div>
-                    <figure class="img">
+                    <figure class="img4">
                         <img src="./img/img-sobre-nós.png" alt="cachorrinho-sorrindo">
                     </figure>
                 </div>
@@ -22,7 +22,7 @@ include './template/header.php';
                     <a href="#"><i class="bi bi-instagram"></i></a>
                     <a href="#"><i class="bi bi-facebook"></i></a>
                 </div>
-                <div class="texto">
+                <div class="texto4">
                     <h1>Sobre Nós</h1>
                     <h4>Bem-vindo ao QuaseLar!</h4>
                     <p>Somos um portal dedicado à adoção e à busca<br> responsável de animais. Aqui, você pode<br>

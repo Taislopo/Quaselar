@@ -13,7 +13,7 @@
 *{
     margin: 0;
 }
-.fundo{
+.fundo4{
     
     background-color: #ffff;
     display: grid;
@@ -22,58 +22,33 @@
     position: relative;
 }
 
-.img img{
+.img4 img{
     height: 100vh;
     width: 50vw;
     position: relative;
     object-fit: cover;     
 }
 
-.texto{ 
+.texto4{ 
     position: relative;
     left: 500px;
     top: 120px;
     z-index: 3;
 }
-.texto h1{
+.texto4 h1{
     left: 60px;
     position: relative;
     font-family: 'work';
     color: #0E6ABE;
     
 }
-.texto h2{
+.texto4 h2{
     font-family: 'work';
 }
-.texto p {
+.texto4 p {
     font-family: 'ones';
 }
 
-
-/* css do header com os menus */
-.box-header{
-    /* é nescessario usar o position em todos que vão ser empilhados para que o zindex funcione */  
-    position: relative;
-    top: 40px;
-    left: 700px;
-    height: 50px  ;
-    width: 9rem ;
-    background-color: #0E6ABE;
-    float: right;
-    border-radius: 10px;
-    /* usando o zindex para fazer eles ficar em cima do outro por estar usando o grid */
-    z-index: 1;
-   
-}
-
-.box-header i{
-    color: #ffff;
-    font-size: 2rem;
-    margin: 15px;
-}
-.box-header i:hover{
-    color: #a7b0cf;
-}
 
 /* css do quadrado com as redes */
 .box-redes{

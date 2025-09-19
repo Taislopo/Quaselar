@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'open_sans';
+    src: url(../font/OpenSans-VariableFont_wdth,wght.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    /* font-family: 'open-sans'; */
+}
+/* body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+} */
+ 
+.header_html{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    border-bottom: 1px black solid;
+}
+.nav-itens{
+    width: 86%;
+    max-height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bnt-group1{
+    height: 100%;
+}
+.bnt-group1 ul{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.bnt-group1 ul li{
+    list-style: none;
+    margin: 0.6rem;
+ 
+}
+.bnt-group1 ul li a{
+    text-decoration: none;
+}
+/* .menu-burguer{  MENU */
+    /* position: absolute;
+    display: none;
+    top: 80px;
+    right: 0;
+    width: 50vh;
+    height: 90vh;
+    transition: 1s;
+    background-color: rgba(255, 255, 255, 0.353);
+    transform: translateX(100%);  esconde o menu "joga para fora da tela" */
+/* } */
+/* .menu-burguer>li{
+    margin: 8px;
+    display: flex;
+    letter-spacing: 3px;
+    margin-left: 3vh;
+    font-family: 'ones-semi';
+} */
+.bnt_entrar{    /*botão "Entrar"*/
+    color: black;
+}
+.bnt_entrar a{
+    padding: 14px 34px;
+    color: black;
+    background-color: transparent;
+    border-radius: 10px;
+}
+.bnt_entrar a:hover{
+    border: 1px black solid;
+    color: white;
+    background-color: black;
+    transition: 0.6s;
+}
+.bnt_cadastrar{ /*botão "Cadastra-se"*/
+    color: white;
+   
+}
+.bnt_cadastrar a{
+    padding: 14px 34px;
+    background-color: rgba(86, 171, 249, 1);
+    color: white;
+    border-radius: 10px;
+}

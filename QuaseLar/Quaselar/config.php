@@ -16,4 +16,13 @@ $dsn = "mysql:dbname={$_ENV['BANCO']};host={$_ENV['HOST']}";
 $usuario = $_ENV['USUARIO'];
 $senha = $_ENV['SENHA'];
 
-$conn = new PDO($dsn, $usuario, $senha);
+try {
+    // Cria a conexão PDO com tratamento de erros ativado
+    $conn = new PDO($dsn, $usuario, $senha);
+    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    //echo "✅ Conectado com sucesso!";
+} catch (PDOException $e) {
+    die("❌ Erro de conexão: " . $e->getMessage());
+}
+
+

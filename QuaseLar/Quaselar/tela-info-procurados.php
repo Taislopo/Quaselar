@@ -3,10 +3,10 @@ include './template/header.php';
 ?>
 
 <body>
-    <section class="fundo">
+    <section class="fundo5">
         <main class="row">
-            <figure class="caixa-aviso">
-                <figcaption class="texto">
+            <figure class="caixa-aviso5">
+                <figcaption class="texto5">
                     <h1>PROCURA - SE </h1>
                 </figcaption>
             </figure>
@@ -15,20 +15,20 @@ include './template/header.php';
 
 
 
-        <main class="grid-procurados">
+        <main class="grid-procurados5">
 
                 <!-- cards -->
-            <figure class="card1">
-                <figcaption class="text2">
+            <figure class="card111">
+                <figcaption class="text21">
                     <h1>Muss</h1>
                     <p><strong>Ultimo lugar visto:<br>Mussum Ipsum</p>
                     <h6>Ultima Atualização 3 Horas</h6>
                 </figcaption>
             </figure>
 
-            <figure class="card2">
+            <figure class="card21">
                 <h4>Informações do Animal</h4>
-                <figcaption class="text3">
+                <figcaption class="text31">
                     <!-- caixas de textos -->
                     <p  class="text-start" ><strong >Nome:</strong><strong>Idade:</strong><strong>Sexo:</strong></p>
                     <p  class="text-start"><strong>Espécie:</strong></p>
@@ -37,7 +37,7 @@ include './template/header.php';
                 </figcaption>
             </figure>
 
-            <figure class="card3">
+            <figure class="card31">
                 <h4>Viu esse bichinho? Conte onde!</h4>   
             </figure>
 
