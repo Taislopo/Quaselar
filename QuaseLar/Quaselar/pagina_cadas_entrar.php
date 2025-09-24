@@ -7,10 +7,12 @@ include './template/header.php';
 
 
 
-<body class="tudo">
+<!-- <body class="tudo"> -->
+    <!-- <section class="alinha-form"> -->
+
     <main class="form-1">
         <h1>Cadastre-se</h1>
-        <form  method="POST" action="form_cadastro_login.php" class="cadastroo">
+        <form  action="form_cadastro_login.php"  method="POST"  class="cadastroo">
             <label for="nome">Nome</label>
             <input type="text" id="nome" name="nome">
             <label for="email">E-mail</label>
@@ -29,6 +31,7 @@ include './template/header.php';
         </form>
     </main>
     <div class="tela_extra" onclick="moverTela()">
+    <h1>Clique aqui se quiser fazer o login</h1>
     </div>
     <main class="form-2">
         <h1>Entrar</h1>
@@ -40,3 +43,10 @@ include './template/header.php';
         </nav>
         <button class="entrar-bnt">Entrar</button>
     </main>
+
+
+    <!-- </section> -->
+
+    <?php
+    include './template/footer.php';
+    ?>

@@ -1,3 +1,4 @@
+-- SQLBook: Code
 CREATE DATABASE db_quaseLar;
     DEFAULT CHARACTER SET = 'utf8mb4';
     use db_quaseLar;

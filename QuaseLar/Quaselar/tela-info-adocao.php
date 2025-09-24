@@ -39,9 +39,11 @@ include './template/header.php';
 
             <figure class="card3">
                 <h4>Conversar com o Resposável</h4>   
-            <figcaption class="contato">
+          
+                    <h3>nome do responsavel:</h3>
+                    <h3>numero para contato:</h3>
 
-            </figcaption>
+      
             </figure>
 
 

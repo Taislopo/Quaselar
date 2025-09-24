@@ -1,29 +1,9 @@
 <?php
 include './template/header.php';
 ?>
-<!--CABEÇALHO =====================================================================-->
-<header class="navbar">
-    <a href="" class="logo"><img src="./img/Cat-logo.png">QuaseLar</a> <!--logo-->
-    <div class="hamburguer"> <!--icone de menu-->
-        <div class="linha1"></div>
-        <div class="linha2"></div>
-        <div class="linha3"></div>
-    </div>
-    <ul class="bnt"> <!--botões principais-->
-        <li><a href="./pagina_cadas_entrar.php" class="bnt_entrar">Entrar</a></li>
-        <li><a href="./pagina_cadas_entrar.php" class="bnt_cadastrar">Cadastrar-se</a></li>
-    </ul>
-    <ul class="menu-burguer"> <!--itens do menu-->
-        <li><a href="1">Quem somos?</a></li>
-        <li><a href="2">Quero adotar!</a></li>
-        <li><a href="3">Procurados</a></li>
-        <li><a href=";" class="bnt_entrar-2">Entrar</a></li>
-        <li><a href="@" class="bnt_cadastrar-2">Cadastrar-se</a></li>
-    </ul>
-</header>
-<!--===============================================================================-->
+
 <!--inicio-->
-<section class="fundo">
+<section class="fundo_inicial">
     <section class="banner">
         <h1>Todo animalzinho merece ser amado!!</h1>
         <p>Arraste para baixo e conheça muitos bichinhos<br> que estão precisando de lar.</p>

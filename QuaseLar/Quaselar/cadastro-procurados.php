@@ -21,9 +21,9 @@ include './template/header.php';
                 <h4>Informações do Animal</h4>
                 <div class="grupo11">
                     <!-- caixas de texto -->
-                    <label for=""><strong>Nome:</strong><textarea placeholder=""></textarea></label>
-                    <label for=""><strong>Idade:</strong><textarea placeholder=""></textarea></label>
-                    <label for=""><strong>Sexo:</strong><textarea placeholder=""></textarea></label>
+                    <label for=""><strong>Nome:</strong><input></input></label>
+                    <label for=""><strong>Idade:</strong><input></input></label>
+                    <label for=""><strong>Sexo:</strong><input></input></label>
 
                 </div>
                 <div class="grupo22">

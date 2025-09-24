@@ -5,13 +5,13 @@ var_dump($_POST);
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
-    $nome = $_POST["nome"] ?? '';
-    $email = $_POST["email"] ?? '';
-    $telefone = $_POST["telefone"] ?? '';
-    $CPF = $_POST["cpf"] ?? '';
-    $CEP = $_POST["cep"] ?? '';
-    $senha = $_POST["senha1"] ?? '';
-    $confirmar_senha = $_POST["senha_confimar1"] ?? '';
+    $nome = $_POST["nome"];
+    $email = $_POST["email"];
+    $telefone = $_POST["telefone"];
+    $CPF = $_POST["cpf"];
+    $CEP = $_POST["cep"];
+    $senha = $_POST["senha1"];
+    $confirmar_senha = $_POST["senha_confimar1"];
 
     }
 

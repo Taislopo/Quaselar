@@ -38,34 +38,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: 20px;
     font-family: 'work';
     font-size: 30px;
     color: #ffff;
     
     
 }
-/* hearder com os menus */
-.box-header {
-    height: 50px;
-    width: 200px;
-    background-color: #0E6ABE;
-    border-radius: 10px;
-    position: relative;
-    left: 800px;
-    top: 10px;
-}
-
-.box-header i {
-    color: #ffff;
-    font-size: 30px;
-    margin: 10px;
-}
-
-.box-header i:hover {
-    color: #a7b0cf;
-}
-
 
 .grid-procurados {
     display: grid;
@@ -172,8 +151,8 @@
 .card3 {
     position: relative;
     right: 150px;
-    height: 200px;
-    width: 600px;
+    height: 130px;
+    width: 250px;
     top: 60px;
     border-radius: 20px;
      grid-column: 2 / 2; 
@@ -198,13 +177,7 @@
 
     }
     /* vendo ainda o melhor jeito deixar o contato */
-.contato{
-    background-color: tomato;
-    height: 100px;
-    width: 100px;
-    position: relative;
-    left: 200px;
-}
+
 
 
 
